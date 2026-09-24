@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Input and output data
+data/input/*
+data/output/*
+
+# Keep the data folders in Git
+!data/input/.gitkeep
+!data/output/.gitkeep
+
+# Model weights
+models/*.pt
+models/*.onnx
+models/*.engine
+
+# Generated videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Test/cache files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
